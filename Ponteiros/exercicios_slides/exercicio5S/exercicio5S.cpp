@@ -58,7 +58,7 @@ int main()
     void trocaMaior(int vet[], int n, int *m);
     */
 
-    int tam = 1, maior = 0;
+    int tam = 5, maior = 0;
     int *vet = new int[tam];
 
     for (int i = 0; i < tam; i++)
@@ -78,4 +78,6 @@ int main()
     {
         cout << "Posicao " << i << ": " << vet[i] << endl;
     }
+
+    delete [] vet;
 }
